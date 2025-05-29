@@ -1,0 +1,42 @@
+{
+  "hitbox": "player",
+  "names": [
+    "npc.sacchi.name"
+  ],
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobblemon:sacchi_interaction"
+  },
+  "canDespawn": false,
+  "ai": [
+    {
+      "type": "apply_presets",
+      "presets": [
+        "cobblemon:uses_healing_machine",
+        "cobblemon:chats"
+      ]
+    },
+    {
+      "type": "add_tasks_to_activity",
+      "activity": "core",
+      "tasksByPriority": {
+        "0": [
+          "look_at_target",
+          "stay_afloat"
+        ]
+      }
+    },
+    {
+      "type": "add_tasks_to_activity",
+      "activity": "idle",
+      "tasksByPriority": {
+        "0": [
+          "look_at_target"
+        ],
+        "1": [
+          "look_at_entities"
+        ]
+      }
+    }
+  ]
+}

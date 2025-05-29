@@ -1,0 +1,15 @@
+name = "Pokomon"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "1992d2b63c8924a23b6c55cb27c8756f2fd75b6fdf864cfbf020d08d9b5e31cc"
+
+[versions]
+fabric = "0.16.10"
+minecraft = "1.21.1"
+
+[options]
+acceptable-game-versions = ["1.21"]
