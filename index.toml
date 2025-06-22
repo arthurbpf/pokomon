@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".envrc"
+hash = "1d26c74fd25a4c3dbb09e029fc609588da499fd4af2a41c88f6316c7f8c54cf1"
+
+[[files]]
 file = "config/bedrockify/bedrockify-ExternalLoadingTips.json"
 hash = "1a7bbcdb24528db66a7ff429924588d307374e38d13ea1965a2f516edc1d711f"
 
@@ -539,6 +543,14 @@ hash = "adc82dae7cc029e3859787b2de33bd7bac01bf27bda1e394feacce2f8ed51ee1"
 [[files]]
 file = "config/yosbr/shaderpacks/ComplementaryReimagined_r5.3.zip.txt"
 hash = "13698a7e373a11bdb61ef72815daa4e0a22f834e9bf464ec7e466e357ba62ffb"
+
+[[files]]
+file = "flake.lock"
+hash = "6811f6124c039b01b80e6db964f8fd80d38ec2fa7bf1fb292efaee42c84fdb21"
+
+[[files]]
+file = "flake.nix"
+hash = "f86f0125199d84572aebdc0f7633f4be35eb3293d1ed31a5d36f6da137a0900a"
 
 [[files]]
 file = "icon.png"
